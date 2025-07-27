@@ -26,12 +26,11 @@ Paste the following code into your editor:
 
 const readline = require('readline-sync');
 
-const hasTorch = false;
-const hasMap = false;
-const hasSword = true;
-const hasCompass = true;
-const hasFood = true;
-const hasWater = true;
+let hasTorch = false;
+let hasMap = false;
+let hasCompass = true;
+let hasFood = true;
+let hasWater = true;
 
 console.log("You see two paths: one leads to the mountains, the other to the village.");
 const choice = readline.question("Do you go to the 'mountains' or the 'village'?");
